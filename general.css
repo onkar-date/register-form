@@ -1,0 +1,36 @@
+:root{
+    --primary: #0083ff;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: -webkit-pictograph;
+    background-image: url('./bodyBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.text-primary{
+    color: var(--primary);
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.sign-up-btn{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}

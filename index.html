@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card register-card">
+            <div class="card-header">
+                <h2>
+                    Create New Account
+                </h2>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label class="form-label" for="name">Name</label>
+                        <div class="form-input">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <div class="form-input">
+                            <input type="email" name="email" id="email" placeholder="someone@abc.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="mobile">Mobile No.</label>
+                        <div class="form-input">
+                            <input type="number" name="mobile" id="mobile" placeholder="1234">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="password">Password</label>
+                        <div class="form-input">
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="sign-up-btn" type="button">Sign Up</button>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <span>I have read and agree to the&nbsp;</span>
+                        <span class="text-primary clickable">
+                            <u>Terms of Service</u>
+                        </span>
+                    </div>
+
+                    <div class="login-wrapper">
+                        <small>Already have an account?&nbsp;</small>
+                        <small class="text-primary clickable"><u>Login</u></small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.card{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 50px white;
+}
+
+.card.register-card{
+    background-image: url('./card-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .card-header{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.card .card-body{
+    padding: 2rem;
+}
